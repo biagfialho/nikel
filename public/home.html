@@ -78,11 +78,52 @@
                            </div>
                       </div>
                    </div>
-                </div>
-        <header>
-            <h4 class="d-flex justify-content-start mt-1">Bem-vindo à Minha Aplicação Web</h4>
-        </header >
-         <p class="d-flex justify-content-start mt-4">Este é o conteúdo principal da aplicação.</p>
+                     <button class="btn button-float" data-bs-toggle="modal"
+                      data-bs-target="#transactions-modal"><i class="bi bi-plus"></i> </button>
+               </div>
+
+        <!-- Modal -->
+            <div class="modal fade" id="transactions-modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title fs-5" id="exampleModalLabel">Adicionar lançamentos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                       </div>
+                         <form id="create-form">
+                           <div class="modal-body">
+
+                                  <div class="mb-3">
+                                        <label for="email-create-input" class="form-label">Valor</label>
+                                        <input type="number" class="form-control" id="email-create-input" aria-describedby="emailHelp">
+                                    </div>
+                                         <div class="mb-3">
+                                            <label for="password-create-input" class="form-label">Descrição</label>
+                                            <input type="text" class="form-control" id="password-create-input">
+                                        </div>
+                                         <div class="mb-3">
+                                            <label for="password-create-input" class="form-label">Data</label>
+                                            <input type="date" class="form-control" id="password-create-input">
+                                        </div>
+                                        <div class="mb-3">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                            <label class="form-check-label" for="inlineRadio1">Entrada</label>
+                                        </div>
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">Saída</label>
+                                        </div>
+                                    </div>
+                                 </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                                <button type="submit" class="btn button-default">Adicionar</button>
+                           </div>
+                        </form>
+                    </div>
+             </div>
+             </div> 
 </main>
 
 
