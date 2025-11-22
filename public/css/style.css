@@ -34,7 +34,7 @@ header {
 
 .coins {
     position: absolute
-    bottom: 90px;
+    bottom 90px;
 
 }
 
@@ -47,7 +47,7 @@ header {
 }
 
 .button-default {
-    border-radius: 10px%;
+    border-radius: 10px;
      background-color: #4c0070;
      color:#ffffff;
 }
