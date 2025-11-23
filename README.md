@@ -1,8 +1,8 @@
 Pagina web utilizando HTML e CSS.
 
-Esse é um repositório para o projeto [Codai] (https://codai.growdev.com.br/).
+Este é um repositório de exemplo para o projeto [CODAI](https://codai.growdev.com.br).
 
-This is a repository for the [Codai] project (https://codai.growdev.com.br/).
+This is a repository for the [CODAI](https://codai.growdev.com.br) .
 
 
 ✨ Sobre o Projeto
