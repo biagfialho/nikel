@@ -1,8 +1,8 @@
 Pagina web utilizando HTML e CSS.
 
-Esse é um repositório para o projeto [Codai] Nikel (https://codai.growdev.com.br/)
+Esse é um repositório para o projeto (Codai) Nikel (https://codai.growdev.com.br/)
 
-This is a repository for the [Codai] Nikel project (https://codai.growdev.com.br/)
+This is a repository for the (Codai) Nikel project (https://codai.growdev.com.br/)
 
 
 ✨ Sobre o Projeto
