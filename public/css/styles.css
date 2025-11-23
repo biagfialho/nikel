@@ -21,7 +21,7 @@ header {
 }
 
 .icon-detail {
-    font-size: 50;
+    font-size: 50px;
     margin-right: 10px;
     vertical-align: middle;
 }
@@ -33,9 +33,8 @@ header {
 }
 
 .coins {
-    position: absolute
-    bottom 90px;
-
+    position: absolute;
+    bottom: 90px;
 }
 
 .button-login {
@@ -77,12 +76,12 @@ header {
     color: #4c79d3;
 }
 
-.link-defaut {
+.link-default {
      color: #4c0070;
      cursor: pointer;
 }   
 
-.link-defaut:hover {
+.link-default:hover {
     color: #4c79d3;
 }
 
